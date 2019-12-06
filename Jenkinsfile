@@ -51,6 +51,15 @@ pipeline{
                 sh "rsync -azvr /var/lib/jenkins/workspace/netcore-api_multibranch_master/Output/ saadashraf@localhost:/home/saadashraf/Desktop/saadashraf/Work/Output/netcore-api-master/"
             }
         }
+        stage("Restart Daemon"){
+            when
+            {
+                branch "master"
+            }
+            steps{
+                sh "ssh saadashraf@localhost sudo systemctl restart netcore-api_master.service"
+            }
+        }
         
     }
 }
