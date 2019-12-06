@@ -42,6 +42,15 @@ pipeline{
                 sh "dotnet publish -c release -o ./Output"
             }
         }
+        stage('Application deploy'){
+            when
+            {
+                branch "master"
+            }
+            steps{
+                sh "rsync -azvr /var/lib/jenkins/workspace/netcore-api_multibranch_master/Output/ saadashraf@localhost:/home/saadashraf/Desktop/saadashraf/Work/Output/netcore-api-master/"
+            }
+        }
         
     }
 }
