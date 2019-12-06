@@ -35,11 +35,18 @@ pipeline{
             }
         }
         stage('Publish'){
-            when{
-                branch "master"
-            }
             steps{
                 sh "dotnet publish -c release -o ./Output"
+            }
+        }
+
+        stage('Application deploy'){
+            when
+            {
+                branch "dev"
+            }
+            steps{
+                sh "dotnet netcore-api.dll --urls='http://localhost:5001'"
             }
         }
         

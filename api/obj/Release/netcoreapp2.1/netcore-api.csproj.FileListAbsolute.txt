@@ -11,3 +11,4 @@
 /home/saadashraf/Work/netcore-api/api/obj/Release/netcoreapp2.1/netcore-api.RazorTargetAssemblyInfo.cache
 /home/saadashraf/Work/netcore-api/api/obj/Release/netcoreapp2.1/netcore-api.dll
 /home/saadashraf/Work/netcore-api/api/obj/Release/netcoreapp2.1/netcore-api.pdb
+/home/saadashraf/Work/netcore-api/api/obj/Release/netcoreapp2.1/netcore-api.csprojAssemblyReference.cache
