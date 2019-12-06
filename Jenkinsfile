@@ -46,7 +46,7 @@ pipeline{
                 branch "dev"
             }
             steps{
-                sh "dotnet /var/lib/jenkins/workspace/netcore-api_multibranch_dev/Output/netcore-api.dll --urls='http://localhost:5001'"
+                sh "rsync -azvr /var/lib/jenkins/workspace/netcore-api_multibranch_dev/Output/ saadashraf@localhost:/home/saadashraf/Desktop/saadashraf/Work/Output/netcore-api-dev/"
             }
         }
         
