@@ -6859,7 +6859,8 @@
     ]
   },
   "packageFolders": {
-    "/home/saadashraf/.nuget/packages/": {}
+    "/home/saadashraf/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -6870,6 +6871,9 @@
       "packagesPath": "/home/saadashraf/.nuget/packages/",
       "outputPath": "/home/saadashraf/Work/netcore-api/Api.Test/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "/home/saadashraf/.nuget/NuGet/NuGet.Config"
       ],

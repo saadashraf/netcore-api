@@ -13,6 +13,9 @@
         "packagesPath": "/home/saadashraf/.nuget/packages/",
         "outputPath": "/home/saadashraf/Work/netcore-api/api/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/home/saadashraf/.nuget/NuGet/NuGet.Config"
         ],
