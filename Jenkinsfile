@@ -31,7 +31,7 @@ pipeline{
                 branch "dev"
             }
             steps{
-                mstest testResultsFile:"***/*.trx", keepLongStdio: true
+                mstest testResultsFile:"**/*.trx", keepLongStdio: true
             }
         }
         stage('Publish'){
