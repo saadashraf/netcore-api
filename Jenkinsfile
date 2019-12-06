@@ -46,7 +46,7 @@ pipeline{
                 branch "dev"
             }
             steps{
-                sh "dotnet netcore-api.dll --urls='http://localhost:5001'"
+                sh "dotnet /Output/netcore-api.dll --urls='http://localhost:5001'"
             }
         }
         
