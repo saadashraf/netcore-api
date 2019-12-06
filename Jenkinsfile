@@ -26,6 +26,14 @@ pipeline{
                 sh "dotnet test -l 'trx;LogFileName=TestResults.trx'"
             }
         }
+        stage("Running trx"){
+            when{
+                branch "dev"
+            }
+            steps{
+                mstest testResultsFile:"***/*.trx", keepLongStdio: true
+            }
+        }
         stage('Publish'){
             when{
                 branch "master"
