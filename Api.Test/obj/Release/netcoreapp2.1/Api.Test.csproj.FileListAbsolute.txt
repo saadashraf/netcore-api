@@ -1,0 +1,17 @@
+/home/saadashraf/Work/netcore-api/Api.Test/bin/Release/netcoreapp2.1/Properties/launchSettings.json
+/home/saadashraf/Work/netcore-api/Api.Test/bin/Release/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/home/saadashraf/Work/netcore-api/Api.Test/bin/Release/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/home/saadashraf/Work/netcore-api/Api.Test/bin/Release/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/home/saadashraf/Work/netcore-api/Api.Test/bin/Release/netcoreapp2.1/Api.Test.deps.json
+/home/saadashraf/Work/netcore-api/Api.Test/bin/Release/netcoreapp2.1/Api.Test.runtimeconfig.json
+/home/saadashraf/Work/netcore-api/Api.Test/bin/Release/netcoreapp2.1/Api.Test.runtimeconfig.dev.json
+/home/saadashraf/Work/netcore-api/Api.Test/bin/Release/netcoreapp2.1/Api.Test.dll
+/home/saadashraf/Work/netcore-api/Api.Test/bin/Release/netcoreapp2.1/Api.Test.pdb
+/home/saadashraf/Work/netcore-api/Api.Test/bin/Release/netcoreapp2.1/netcore-api.dll
+/home/saadashraf/Work/netcore-api/Api.Test/bin/Release/netcoreapp2.1/netcore-api.pdb
+/home/saadashraf/Work/netcore-api/Api.Test/obj/Release/netcoreapp2.1/Api.Test.csprojAssemblyReference.cache
+/home/saadashraf/Work/netcore-api/Api.Test/obj/Release/netcoreapp2.1/Api.Test.AssemblyInfoInputs.cache
+/home/saadashraf/Work/netcore-api/Api.Test/obj/Release/netcoreapp2.1/Api.Test.AssemblyInfo.cs
+/home/saadashraf/Work/netcore-api/Api.Test/obj/Release/netcoreapp2.1/Api.Test.csproj.CopyComplete
+/home/saadashraf/Work/netcore-api/Api.Test/obj/Release/netcoreapp2.1/Api.Test.dll
+/home/saadashraf/Work/netcore-api/Api.Test/obj/Release/netcoreapp2.1/Api.Test.pdb
