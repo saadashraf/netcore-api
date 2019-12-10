@@ -49,7 +49,7 @@ pipeline{
                 sh "rsync -azvr /var/lib/jenkins/workspace/netcore-api_multibranch_dev/Output/ saadashraf@localhost:/home/saadashraf/Desktop/saadashraf/Work/Output/netcore-api-dev/"
             }
         }
-        stage("Restart Daemon"){
+        stage("Automating Service Creation"){
             when
             {
                 branch "dev"
