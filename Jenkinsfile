@@ -55,7 +55,7 @@ pipeline{
                 branch "dev"
             }
             steps{
-                sh "ssh saadashraf@localhost sudo systemctl restart netcore-api_dev.service"
+                sh "ssh saadashraf@localhost sudo /home/saadashraf/Desktop/saadashraf/Work/Output/service_shell.sh /home/saadashraf/Desktop/saadashraf/Work/Output/netcore-api-dev/service_dev.json"
             }
         }
         
